@@ -1,3 +1,7 @@
+// Bonus Lesson [Part-One]
+// how to write lines that the doesn't execute
+// for instance,
+// comments , notes, todos, or debugging
 // double forward slashs or
 /** 
  * a grouped comments
