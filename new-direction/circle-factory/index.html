@@ -1,0 +1,29 @@
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Message Board</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/setup.js"></script>
+    <script src="./js/utilities.js"></script>
+    <script src="./js/createCircle.js"></script>
+  </head>
+
+  <body>
+    <div id="root">
+      <form id="user_input_form">
+
+        <label for="user_input_radius">Radius</label>
+        <input id="user_input_radius" type="text" placeholder="Enter radius here" autofocus="true"
+          oninput="enableButtonAfterInput()">
+
+        <button id="user_click_add" class="add-button" type="button" onclick="createCircle()"
+          disabled>Add</button>
+      </form>
+      <div id="board" class="board-container"></div>
+    </div>
+  </body>
+
+</html>
