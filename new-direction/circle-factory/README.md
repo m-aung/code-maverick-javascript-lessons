@@ -1,0 +1,1 @@
+# Simple application to show how to compose user input and output display.
